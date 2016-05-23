@@ -1,0 +1,45 @@
+#main{
+	width:80%;
+	margin-left: 15%;
+	
+}
+#search{
+	background-color: #2E9AFE;
+	border-radius: 7px;
+	width: 30%;
+	margin-left: -170px;
+}
+select{
+	width: 200px;
+}
+#subNode{
+	margin-left: 20px;
+	background-color: #58FAF4;
+	border-radius: 5px;
+}
+body{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #E6E6FA;
+}
+h1{
+	color:red;
+	background-color: #7FFF00;
+	width: 50%;
+	float: center;
+	text-align: center;
+	position: relative;
+	margin-left: 240px;
+}
+
+p{
+	text-align: justify;
+}
+.amthuc_img{
+    height: 100px;
+    width: 150px;
+}
+.anh_in_table{
+    height: 100px;
+    width: 150px;
+}

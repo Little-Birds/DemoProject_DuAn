@@ -1,0 +1,19 @@
+body{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #E6E6FA;
+}
+h1{
+	color:red;
+	background-color: #7FFF00;
+	width: 50%;
+	float: center;
+	text-align: center;
+	position: relative;
+	margin-left: 240px;
+}
+
+
+p{
+	text-align: justify;
+}

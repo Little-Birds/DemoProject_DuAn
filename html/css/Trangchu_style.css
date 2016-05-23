@@ -1,0 +1,145 @@
+body{
+
+    background-color: #b7d1c4;
+
+}
+
+h1{
+
+    font-family: Verdana;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-bottom: 25px;
+
+    padding-top: 25px;
+
+    color: red;
+
+}
+
+img{
+
+    height: 200px;
+
+    width: 150px;
+
+    
+}
+
+#navbar{
+
+    position: fixed;
+
+    top: 10px;
+
+    left: 40%;
+
+    margin-left: -200px;
+
+   
+}
+
+#header{
+
+    position: relative;
+
+    top: 30px;
+
+    background-color: #3c4543;
+
+    border-top-left-radius: 15px;
+
+    border-top-right-radius: 15px;
+
+}
+#thoitiet{
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+ul{
+    list-style-type: none;
+
+    position: fixed;
+
+    margin: 5px;
+
+}
+
+
+li {
+
+    display: inline;
+    border: 2px solid #000000;
+
+    font-family: Futura, Tahoma, sans-serif;
+
+    color: #ffffff;
+
+    padding: 10px;
+
+    border-radius: 5px 5px;
+
+    background-color: #cc0323
+
+}
+
+
+#left{
+
+    width: 30%;
+
+    float: left;
+
+    margin-top:20px;
+}
+#sign{
+    position: fixed;
+
+    top: 10px;
+
+    right: 30%;
+
+    margin-right: -250px;
+
+ 
+}
+span{
+    font-weight: bold;
+}
+#right{
+    float: right;
+    width: 70%;
+    text-align:justify;
+    margin-top:20px;
+}
+table{
+    border:2px solid black;
+    
+}
+
+a:link{
+	text-decoration: none;
+	
+}
+#searchForm{
+    position: relative;
+    margin-right: 100px;
+    left: -250px;
+}
+input{
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+}
+button{
+    height: 33px;
+}
+
+
+
+
+    

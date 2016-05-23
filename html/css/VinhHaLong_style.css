@@ -1,0 +1,39 @@
+img{
+    height: 400px;
+    width: 610px;
+}
+#center{
+    width: 50%;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align:justify;
+    padding: 10px;
+    border: 1px solid blue;
+   
+}
+.anh_in_table{
+    height: 100px;
+    width: 150px;
+}
+table{
+    border:1px solid green;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 20px;
+   
+    
+}
+.place_name{
+    text-align: center;
+}
+h3{
+    margin-top: 50px;
+    color: red;
+}
+.amthuc_img{
+    height: 100px;
+    width: 150px;
+}
+p{
+    text-align: justify;
+}

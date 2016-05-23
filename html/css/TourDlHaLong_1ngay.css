@@ -1,0 +1,14 @@
+#main{
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 15%;
+}
+h3{
+    color: red;
+}
+.anh_in_table{
+    height: 100px;
+    width: 150px;
+}

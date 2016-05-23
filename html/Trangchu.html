@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/Trangchu_style.css" type="text/css" />
+        <title>Hướng dẫn du lịch</title>
+    </head>
+    <body>
+        <div id = "header">
+            <div id = "navbar">
+                <ul>
+                    <a href = "Trangchu.html">
+                       <li>Trang chủ</li>
+                    </a>
+                    
+                    <a href = "dulichbien.html">
+                       <li>Du lịch biển</li>
+                    </a>
+                    
+                    <a href = "dulichsinhthai.html">
+                       <li>Du lịch sinh thái</li>
+                    </a>
+                    
+                    <a href = "ditichlichsu.html">
+                       <li>Các khu di tích lich sử</li>  
+                    </a>
+                           
+                </ul>
+                <ul id = "sign">
+                     <a href = "Signin.html">
+                       <li>Sign in</li>
+                    </a>
+                    
+                     <a href = "Signup.html">
+                       <li>Sign up</li>
+                    </a>
+                    
+                    
+                </ul> 
+                <form id="searchForm" action="" method="POST">
+		            <input type = "text" id = "place" />
+			        <button type="submit">Search</button>
+		        </form>
+		        <script src="js/search_place.js"></script>
+            </div>          
+            <h1>Welcome to Việt Nam</h1>
+        </div>
+        
+        <div id="thoitiet">
+            <h4 class="title"> Thời tiết</h4>
+					<select class="sel_weather" style="width:25%;margin-bottom:10px;">
+						<option rel="1" value="1">TP.HỒ CHÍ MINH</option>
+						<option rel="2" value="2">HÀ NỘI</option>
+						<option rel="5" value="5">ĐÀ NẴNG</option>
+						<option rel="3" value="3">HẢI PHÒNG</option>
+						<option rel="6" value="6">CẦN THƠ</option>
+						<option rel="7" value="7">AN GIANG</option>
+						<option rel="8" value="8">BR-VŨNG TÀU</option>
+						<option rel="15" value="15">BÌNH DƯƠNG</option>
+						<option rel="16" value="16">BÌNH PHƯỚC</option>
+						<option rel="17" value="17">BÌNH THUẬN</option>
+						<option rel="14" value="14">BÌNH ĐỊNH</option>
+						<option rel="11" value="11">BẠC LIÊU</option>
+						<option rel="9" value="9">BẮC CẠN</option>
+						<option rel="10" value="10">BẮC GIANG</option>
+						<option rel="12" value="12">BẮC NINH</option>
+						<option rel="13" value="13">BẾN TRE</option>
+						<option rel="19" value="19">CAO BẰNG</option>
+						<option rel="18" value="18">CÀ MAU</option>
+						<option rel="22" value="22">ĐIỆN BIÊN</option>
+						<option rel="20" value="20">ĐĂK LĂK</option> 
+						<option rel="21" value="21">ĐĂK NÔNG</option>
+						<option rel="23" value="23">ĐỒNG NAI</option>
+						<option rel="24" value="24">ĐỒNG THÁP</option>
+						<option rel="25" value="25">GIA LAI</option> 
+						<option rel="26" value="26">HÀ GIANG</option>
+						<option rel="27" value="27">HÀ NAM</option> 
+						<option rel="29" value="29">HÀ TĨNH</option>
+						<option rel="32" value="32">HÒA BÌNH</option>
+						<option rel="33" value="33">HƯNG YÊN</option>
+						<option rel="30" value="30">HẢI DƯƠNG</option>
+						<option rel="31" value="31">HẬU GIANG</option>
+						<option rel="34" value="34">KHÁNH HÒA</option>
+						<option rel="35" value="35">KIÊN GIANG</option>
+						<option rel="36" value="36">KON TUM</option>
+						<option rel="37" value="37">LAI CHÂU</option>
+						<option rel="41" value="41">LONG AN</option>
+						<option rel="40" value="40">LÀO CAI</option>
+						<option rel="38" value="38">LÂM ĐỒNG</option>
+						<option rel="39" value="39">LẠNG SƠN</option>
+						<option rel="42" value="42">NAM ĐỊNH</option>
+						<option rel="43" value="43">NGHỆ AN</option>
+						<option rel="44" value="44">NINH BÌNH</option>
+						<option rel="45" value="45">NINH THUẬN</option>
+						<option rel="46" value="46">PHÚ THỌ</option>
+						<option rel="47" value="47">PHÚ YÊN</option>   
+						<option rel="48" value="48">QUẢNG BÌNH</option>  
+						<option rel="49" value="49">QUẢNG NAM</option> 
+						<option rel="50" value="50">QUẢNG NGÃI</option>   
+						<option rel="51" value="51">QUẢNG NINH</option>
+						<option rel="52" value="52">QUẢNG TRỊ</option>    
+						<option rel="53" value="53">SÓC TRĂNG</option>  
+						<option rel="54" value="54">SƠN LA</option>     
+						<option rel="58" value="58">THANH HÓA</option>  
+						<option rel="56" value="56">THÁI BÌNH</option>  
+						<option rel="57" value="57">THÁI NGUYÊN</option>   
+						<option rel="59" value="59">TIỀN GIANG</option>   
+						<option rel="60" value="60">TRÀ VINH</option>     
+						<option rel="4" value="4">TT HUẾ</option>           
+						<option rel="61" value="61">TUYÊN QUANG</option>     
+						<option rel="55" value="55">TÂY NINH</option>        
+						<option rel="62" value="62">VĨNH LONG</option>   
+						<option rel="63" value="63">VĨNH PHÚC</option>  
+						<option rel="64" value="64">YÊN BÁI</option>   
+					</select><div class="clear">&nbsp;</div>
+			
+            
+        </div>
+					
+						
+    <div class="temp_title">
+    	<img id="img_cloud"/>
+	    <span id="temp_text"></span>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="temp_desc" id="temp_desc"></div>
+    <script>
+	    var data = [["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","25 - 35","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","25 - 31","\u0110\u00eam v\u00e0 s\u00e1ng c\u00f3 m\u01b0a nh\u1ecf, m\u01b0a ph\u00f9n v\u00e0 s\u01b0\u01a1ng m\u00f9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/110_2.3.png","23 - 32","C\u00f3 l\u00fac c\u00f3 m\u01b0a r\u00e0o"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","23 - 26","\u0110\u00eam v\u00e0 s\u00e1ng c\u00f3 m\u01b0a nh\u1ecf, m\u01b0a ph\u00f9n v\u00e0 s\u01b0\u01a1ng m\u00f9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","25 - 34","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","27 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 32","kh\u00f4ng m\u01b0a, gi\u00f3 \u0111\u00f4ng nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","23 - 31","m\u00e2y thay \u0111\u1ed5i, c\u00f3 l\u00fac m\u01b0a, gi\u00f3 nh\u1eb9, \u0111\u1ed9 \u1ea9m 83%"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","28 - 32","nhi\u1ec1u m\u00e2y, kh\u00f4ng m\u01b0a, gi\u00f3 t\u00e2y nam c\u1ea5p 4, \u0111\u1ed9 \u1ea9m 71%"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 30","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","23 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 33","tr\u1eddi n\u1eafng, gi\u00f3 \u0111\u00f4ng nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 33","tr\u1eddi n\u1eafng, gi\u00f3 \u0111\u00f4ng nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","25 - 32","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","21 - 34","\u0110\u00eam kh\u00f4ng m\u01b0a, s\u00e1ng s\u1edbm c\u00f3 s\u01b0\u01a1ng m\u00f9 nh\u1eb9, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/110_2.3.png","25 - 34","m\u01b0a v\u1eeba, l\u1eb7ng gi\u00f3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/110_2.3.png","22 - 32","m\u01b0a v\u1eeba, l\u1eb7ng gi\u00f3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","25 - 34","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, l\u1eb7ng gi\u00f3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/110_2.3.png","26 - 30","m\u01b0a v\u1eeba, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","27 - 37","tr\u1eddi n\u1eafng, gi\u00f3 \u0111\u00f4ng nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","25 - 34","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, gi\u00f3 \u0111\u00f4ng nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","24 - 31","m\u01b0a v\u1eeba, gi\u00f3 nh\u1eb9, \u0111\u1ed9 \u1ea9m 84%"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","23 - 31","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, l\u1eb7ng gi\u00f3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","25 - 36","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/390_2.3.png","20 - 31","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng, chi\u1ec1u t\u1ed1i c\u00f3 l\u00fac c\u00f3 m\u01b0a r\u00e0o v\u00e0 d\u00f4ng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/110_2.3.png","26 - 35","m\u01b0a v\u1eeba, l\u1eb7ng gi\u00f3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/40_2.3.png","15 - 26","C\u00f3 l\u00fac c\u00f3 m\u01b0a r\u00e0o v\u00e0 d\u00f4ng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","22 - 30","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","23 - 28","\u0110\u00eam kh\u00f4ng m\u01b0a, s\u00e1ng s\u1edbm c\u00f3 s\u01b0\u01a1ng m\u00f9 nh\u1eb9, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 28","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","25 - 35","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","23 - 31","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","26 - 36","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 33","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","26 - 34","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/90_2.3.png","26 - 31","m\u01b0a v\u1eeba, gi\u00f3 nh\u1eb9, \u0111\u1ed9 \u1ea9m 88%"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","26 - 37","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","25 - 32","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","20 - 33","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nam c\u1ea5p 3"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","23 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","25 - 33","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","25 - 34","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/300_2.3.png","23 - 33","\u0110\u00eam kh\u00f4ng m\u01b0a, ng\u00e0y n\u1eafng"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 31","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","27 - 36","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","26 - 35","kh\u00f4ng m\u01b0a, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/340_2.3.png","24 - 32","tr\u1eddi n\u1eafng, gi\u00f3 nh\u1eb9"],["http:\/\/stc.laban.vn\/v5\/images\/weather\/260_2.3.png","25 - 30","kh\u00f4ng m\u01b0a, l\u1eb7ng gi\u00f3"]];
+	    function change(){
+	    	var rel = $('.sel_weather').val();
+	    	$('#img_cloud').attr('src', data[rel][0]);
+	    	$('#temp_text').html(data[rel][1] + '<sup>o</sup>C');
+	    	$('#temp_desc').html(data[rel][2]);
+	    }
+	    $('.sel_weather').change(function(){
+		    change()
+    	});
+		change();
+    </script>
+
+        <div id = "left">
+            <table>
+                <tr>
+                    <td>
+                        <img src = "http://trithucsong.com/data/trithucsong_dulich/data/du-lich-alotin-vn-images-du-lich-viet-nam/alotin.vn_1404273093_chinh@201211981032929_0.jpg" />
+                    </td>
+                    <td>
+                        <img src = "http://img.v3.news.zdn.vn/w660/Uploaded/jac_iik/2014_08_08/5_1.jpg" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src = "http://holidaybeachdanang.com/wp-content/uploads/2015/02/10_diem_du_lich_dep_nhat_viet_nam_a16.jpg" />
+                    </td>
+                    <td>
+                        <img src = "http://img.tuyentaphay.com/wp-content/uploads/2016/01/nhung-dia-diem-du-lich-khong-the-bo-qua-o-sai-gon-hinh-anh-2.jpg" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src = "http://media.doisong.vn/js/tiny_mce/plugins/imagemanager/files/van_hoa/du-lich-phan-thiet-1.jpg" />
+                    </td>
+                    <td>
+                        <img src = "http://img.tuyentaphay.com/wp-content/uploads/2016/03/nhung-dia-diem-du-lich-ngay-8-3-o-viet-nam-ban-da-di-het-chua-hinh-anh-1.jpg" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id ="right">
+           <p>
+              Nước Cộng hoà Xã hội chủ nghĩa Việt Nam là một dải đất hình chữ  S, nằm ở trung
+              tâm khu vực Đông Nam Á, ở phía đông bán đảo Đông Dương, phía bắc giáp Trung Quốc,
+              phía tây giáp Lào, Campuchia, phía đông nam trông ra biển Đông và Thái Bình Dương.
+              Bờ biển Việt Nam dài 3 260 km, biên giới đất liền dài 4 510 km. Trên đất liền, từ 
+              điểm cực Bắc đến điểm cực Nam (theo đường chim bay) dài 1 650km, từ điểm cực Đông 
+              sang điểm cực Tây nơi rộng nhất 600km (Bắc bộ), 400 km (Nam bộ), nơi hẹp nhất 50km
+              (Quảng Bình).
+           </p>
+           <p> Kinh tuyến: 102º 08' - 109º 28' đông </p>
+           <p> Vĩ tuyến:  8º 02' - 23º 23' bắc </p>
+           <p> Việt Nam là đầu mối giao thông từ  Ấn Độ Dương sang Thái Bình Dương. </p>
+           <p> <span>Khí hậu:</span> Việt Nam là nước nhiệt đới gió mùa; Trải dài xuôi về
+               Xích Đạo nhưng Việt Nam lại có những điều kiện tự nhiên khí hậu và gió mùa 
+               khác biệt giữa đôi miền Nam Bắc. Một mùa đông lạnh ẩm đặc trưng miền Bắc trái
+               chiều với không khí đón Tết đến xuân về ấm nóng ở trong Nam.
+           </p>
+           <p> <span> Địa hình: </span> Lãnh thổ Việt Nam bao gồm 3 phần 4 là đồi núi; </p>
+           <p> <span>Tài nguyên: </span>Việt Nam có nguồn tài nguyên vô cùng phong phú như:
+               tài nguyên rừng, tài nguyên thủy hải sản, tài nguyên du lịch và nhiều loại
+               khoáng sản đa dạng.
+           </p>
+           <p> <span>Đơn vị hành chính:</span> Việt Nam có 63 tỉnh và thành phố.
+           <p> <span>Văn hóa:</span> Với 54 dân tộc anh em, đất nước Việt Nam có nền văn hóa đa
+                dạng và phong phú từ miền Bắc đến miền Nam. Sự đa dạng và phong phú thế hiện qua
+                từng con người, từng vùng, từng địa phương.
+                <p>Đất nước Việt Nam tự hào khi có rất nhiều di sản văn hóa phi vật thể về các loại
+                nghệ thuật đặc trưng của từng vùng và từng thời kỳ trong lịch sử.</p>
+                <p>Việt Nam là đất nước tươi đẹp gồm rất nhiều danh lam thắm cảnh nổi tiếng được UNESCO
+                công nhận, đặc biệt Vịnh Hạ Long của Việt Nam được công nhận làm 1 trong 7 kỳ quan 
+                thiên nhiên thế giới mới vào ngày 11/11/2011.</p>
+            </p>
+        </div>
+    </body>
+    <script src="script.js?20181"></script>
+	<script type="text/javascript">
+	   var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-17352228-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</html>

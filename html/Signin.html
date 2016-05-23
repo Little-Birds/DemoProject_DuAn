@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/dangnhap.css"/>
+		<title> SIGN IN </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+   
+        <div>
+           	<h1><blink>Welcome to Việt Nam</blink></h1>
+        </div>
+			
+		<div id="main">
+			
+			<ul id = "sign">
+				
+                <a class="sg" href = "Signin.html">
+                    <li>Sign in</li>
+                </a>
+                    
+                <a class="sg" href = "Signup.html">
+                   <li>Sign up</li>
+                </a>
+                
+            </ul> 
+
+           
+			<form id="login" action="https://demo-project-littlebirdss.c9users.io/html/php/ReadFile.php" method="POST" onsubmit = "return ReadFile()">
+				
+			    <div id="header">
+			    	<h4>LOGIN</h4>
+			    </div>
+			    
+			    <div>
+					<i><p id="error"></p></i>
+				</div>
+				
+				<div>
+					<label for=""><i>Email     </i></label>
+					<input type="text" id="username" name = "emaillogin"/>
+				</div>
+				
+				<div>
+					<label for=""><i>Password</i></label>
+					<input type="password" id="password" name = "passwordlogin"/>
+				</div>
+                   
+			    <div>
+					<button type="submit">Login</button>
+				    <div id="forgot">
+						<a id="fg" href="forgotpass.html">Forgot your password?</a>
+					</div>
+					    
+				</div>
+			
+            </form>
+		</div>
+        
+	</body>	
+</html>

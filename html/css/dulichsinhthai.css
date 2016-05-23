@@ -1,0 +1,60 @@
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+#header{
+	width: 80%;
+	height:300px;
+	float: center;
+	margin-left:100px;
+}
+
+#chuchay{
+	text-align: center; 
+	width: 50%;
+	height: 40px;
+	background-color: yellow;
+	float: center;
+	margin-bottom:5px;
+	color: red;
+	margin-left: 240px;
+	position: relative;
+	border-radius: 5px 5px;
+}
+
+ol {
+	
+	font-size: 30px;
+}
+#body{
+	width: 80%;
+	padding: 5px;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: justify;
+}
+
+
+a{
+	color: #00FF7F;
+}
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	background: #ff0000;
+	color: white;
+	
+}
+
+#find{
+	float: right;
+	margin-right: 10%;
+}
+
+p{
+	font-size: 15px;
+}

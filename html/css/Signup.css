@@ -1,0 +1,88 @@
+body {
+	background-image: url("http://khoemoivui.com/wp-content/uploads/2014/03/du-lich-Vietnam-Holiday.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F0FFFF;
+}
+
+#header{
+	text-align: center;
+	color: #8B0000;
+	background-color: #7FFF00;
+	height: 40px;
+	width: 300px;
+	margin-left: 40%;	
+	margin-top: 20px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	
+}
+
+#fbody{
+	margin-left: 32%;
+	margin-right: 31%;
+	background-color: #DCDCDC;
+	height: 100%;
+}
+
+#formdangky{
+	float: center;
+	margin-top: 30px;
+}
+h2{
+	margin-top: 8px;
+}
+
+th{
+	font-size: 25px;
+}
+
+#dangky{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: red;
+	background-color: #7FFF00;
+}
+
+.muc{
+	color: #008000;
+}
+
+#reset{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: red;
+	background-color: #7FFF00;
+}
+
+input{
+	margin-left: 20px;
+	height: 20px;
+	width: 250px;
+}
+
+p{
+	margin-top: 1px;
+}
+
+select{
+	margin-left: 10px;
+	
+}
+
+optiom{
+	float: center;
+}
+
+i{
+	
+	font-size: 20px;
+}
+#living{
+	margin-left: 20px;
+	height: 20px;
+	
+}
+
