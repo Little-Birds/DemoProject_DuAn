@@ -30,7 +30,7 @@ Nội dung Demo:
  - Ngoài ra còn 1 số trang web giới thiệu về từng địa điểm (Trương Văn Tý)
 
 3. Test:
-- Chạy file 'Trangchu.htlm' -> Khung giao diện Trangchu xuất hiện bao gồm:
+- Chạy file 'Trangchu.htlm' -> Khung giao diện Trangchu xuất hiện bao gồm: https://demo-project-littlebirdss.c9users.io/html/Trangchu.html
     + Lời giới thiệu về Việt Nam
     + Phía trên khung Trangchu là các liên kết đến từng phần nhỏ về các loại du lịch (Bạn có thể kích vào để kiểm tra)
     + Phía bên trái là công cụ tìm kiếm địa điểm du lịch (Sẽ nói sau)
@@ -48,8 +48,9 @@ cần tìm, ví dụ: phong nha ke bang, bạn cũng có thể gõ tìm các ki�
     + Bạn click vào Sign up và điền thông tin vào cho  đầy đủ, nếu bạn điền không phù hợp thì nó sẽ thông báo lỗi cho bạn
     + Sau khi khai đủ thông tin trong form đăng ký, bạn nháy vào Sign up, lập tức tất cả các thông tin của bạn sẽ được lưu vào 
     file 'thongtin.txt'. Bạn có thể mở ra để xem thông tin đã khai báo của mình
-    + 
-
+- Cuối cùng, bạn kích vào dự báo thời tiết và chọn vùng:
+    Tất cả thông tin cần thiết về thời tiết từng vùng sẽ hiện ra
+4. Bọn mình test được khoảng 70%  
 
 
 
