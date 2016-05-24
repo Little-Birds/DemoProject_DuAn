@@ -36,7 +36,6 @@ Nội dung Demo:
     + Lời giới thiệu về Việt Nam
     + Phía trên khung Trangchu là các liên kết đến từng phần nhỏ về các loại du lịch (Bạn có thể kích vào để kiểm tra)
     + Phía bên trái là công cụ tìm kiếm địa điểm du lịch (Sẽ nói sau)
-    + Phía bên phải là công cụ Đăng Nhập (Sign in) và Đăng ký (Sign up)
     + Dưới công cụ tìm kiếm đó là công cụ "Dự báo thời tiết". Bạn có thể chọn để xem thời tiết của các vùng trên đất nước 
     + Bên dưới nữa là những bức ảnh về Du lịch Việt Nam
 - Bạn kích vào từng phần, ví dụ như Du lịch sinh thái 
