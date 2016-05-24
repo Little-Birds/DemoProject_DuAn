@@ -31,7 +31,8 @@ Nội dung Demo:
  - Ngoài ra còn 1 số trang web giới thiệu về từng địa điểm (Trương Văn Tý)
 
 3. Test:
-- Chạy file 'Trangchu.htlm' -> Khung giao diện Trangchu xuất hiện bao gồm: https://demo-project-littlebirdss.c9users.io/html/Trangchu.html
+- Chạy file 'Signin.htlml' https://demo-project-littlebirdss.c9users.io/html/Signin.html nếu chưa cố tài khoản bạn có thể vào Signup 
+- Sau khi Signin, Khung giao diện Trangchu xuất hiện bao gồm: https://demo-project-littlebirdss.c9users.io/html/Trangchu.html
     + Lời giới thiệu về Việt Nam
     + Phía trên khung Trangchu là các liên kết đến từng phần nhỏ về các loại du lịch (Bạn có thể kích vào để kiểm tra)
     + Phía bên trái là công cụ tìm kiếm địa điểm du lịch (Sẽ nói sau)
