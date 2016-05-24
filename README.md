@@ -51,7 +51,7 @@ cần tìm, ví dụ: phong nha ke bang, bạn cũng có thể gõ tìm các ki�
     file 'thongtin.txt'. Bạn có thể mở ra để xem thông tin đã khai báo của mình
 - Cuối cùng, bạn kích vào dự báo thời tiết và chọn vùng:
     Tất cả thông tin cần thiết về thời tiết từng vùng sẽ hiện ra
-4. Bọn mình test được khoảng 70%  
+
 
 
 
