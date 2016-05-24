@@ -10,7 +10,7 @@
 
 
 TÊN DEMO : HƯỚNG DẪN DU LỊCH
-Họ và tên các thành viên trong nhóm: 
+Họ và tên các thành viên trong nhóm: Little Birds
 - Bùi Tiến Đạt - 14020581
 - Dương Văn Tú - 14020534
 - Trương Văn Tý - 14020544
